@@ -1,0 +1,1 @@
+export const ProductTile = () => <div></div>

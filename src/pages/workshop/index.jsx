@@ -1,0 +1,1 @@
+export const WorkshopPage = () => <div>Workshop</div>

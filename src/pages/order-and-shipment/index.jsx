@@ -1,0 +1,1 @@
+export const OrderAndShipmentPage = () => <div>Order and shipment</div>

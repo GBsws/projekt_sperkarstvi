@@ -1,0 +1,1 @@
+export const ProductDetailPage = () => <div>Product detail</div>

@@ -1,0 +1,1 @@
+export const MaterialsPage = () => <div>Materials</div>
