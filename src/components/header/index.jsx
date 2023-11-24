@@ -1,12 +1,12 @@
-import { NavLink } from "react-router-dom"
+import { Navigation } from "../navigation"
 
-export const Footer = () => {
+export const Header = () => {
     return (
         <div>
-            <nav>
-            <NavLink to='/vlastnosti-materialu'>Vlastnosti materialu</NavLink>
-            <NavLink to='/prodejni-akce'>Prodejni akce a trhy</NavLink>
-            </nav>
+            <div>
+                <h1>Jitka Pfau ~ autorske sperky</h1>
+            </div>
+            <Navigation />
         </div>
     )
 }

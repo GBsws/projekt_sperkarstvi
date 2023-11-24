@@ -1,5 +1,6 @@
-import { ProductTypeTile } from "../..productTypeTile";
+//import { ProductTypeTile } from "../..productTypeTile";
 import { PRODUCT_TYPE } from "../../constants"
+import { ProductTypeTile} from "../../components/productTypeTile"
 
 export const HomePage = () => {
   return (
