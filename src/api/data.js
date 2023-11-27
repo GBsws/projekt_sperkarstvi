@@ -93,6 +93,7 @@ export const DATA = [
   {
     id:"lkdsjmhto",
     cislo_fotky: "30",
+    images:['../api/assets/img/0030_a.jpg','../api/assets/img/0030_b.jpg'],
     typ: ["náramek"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["kované", "tepané"],
