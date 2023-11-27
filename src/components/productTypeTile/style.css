@@ -1,0 +1,12 @@
+.product_type_tile__button {
+  background-image: url("../../assets/img/favicon_0337_2.png");
+  object-fit: cover;
+  height: 10vh;
+  width: 10vw;
+  
+}
+/* .grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+} */
