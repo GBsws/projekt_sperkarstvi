@@ -3,6 +3,7 @@ export const DATA = [
     id: "lkdsjfklj",
     nazev: "kočka",
     cislo_fotky: "17",
+    images:['../api/assets/img/0017'],
     typ: ["brož", "spona na oděv"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["kované", "tepané"],
@@ -16,6 +17,7 @@ export const DATA = [
     id: "skdjfksdf",
     nazev: "blankytně",
     cislo_fotky: "18",
+    images:['../api/assets/img/0018'],
     typ: ["náramek"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika_1: ["kované", "tepané"],
@@ -28,6 +30,7 @@ export const DATA = [
   {
     id: "lkbnjfklj",
     cislo_fotky: "27",
+    images:['../api/assets/img/0027'],
     typ: ["náhrdelník"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["kované", "tepané"],
@@ -41,6 +44,7 @@ export const DATA = [
   {
     id: "lkdsoloo",
     cislo_fotky: "149",
+    images:['../api/assets/img/0149'],
     typ: ["souprava"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["kované", "tepané"],
@@ -54,6 +58,7 @@ export const DATA = [
   {
     id: "lfvgtklj",
     cislo_fotky: "150",
+    images:['../api/assets/img/0150'],
     typ: ["souprava"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["kované", "tepané"],
@@ -67,6 +72,7 @@ export const DATA = [
   {
     id: "bnzsjfklj",
     cislo_fotky: "38",
+    images:['../api/assets/img/0038'],
     typ: ["brož", "spona na oděv"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["kované", "tepané"],
@@ -80,6 +86,7 @@ export const DATA = [
   {
     id: "lkdsjmjko",
     cislo_fotky: "48",
+    images:['../api/assets/img/0048'],
     typ: ["nahrdelnik"],
     material: ["chirurgická ocel", "fosílie"],
     technika: ["kované", "tepané"],
@@ -107,6 +114,7 @@ export const DATA = [
   {
     id:"amlroawo",
     cislo_fotky: "36",
+    images:['../api/assets/img/0036'],
     typ: ["naušnice"],
     material: ["chirurgická ocel", "skleněné"],
     technika: ["kované", "tepané"],
@@ -120,6 +128,7 @@ export const DATA = [
   {
     id:"bnacgtrto",
     cislo_fotky: "157",
+    images:['../api/assets/img/00157_a','../api/assets/img/0157_b'],
     typ: ["přívěšek"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["wire-wrapping"],
@@ -133,6 +142,7 @@ export const DATA = [
   {
     id:"bxcgrrhto",
     cislo_fotky: "130",
+    images:['../api/assets/img/0130'],
     typ: ["naušnice"],
     material: ["měď", "(ne)obyčejné oblázky"],
     technika: ["kované", "tepané"],
@@ -146,6 +156,7 @@ export const DATA = [
   {
     id:"vvloddro",
     cislo_fotky: "363",
+    images:['../api/assets/img/0363'],
     typ: ["přívěšek"],
     material: ["zlato", "sdrehé kameny"],
     technika: ["kované", "tepané"],
@@ -159,6 +170,7 @@ export const DATA = [
   {
     id:"yyxnajjto",
     cislo_fotky: "93",
+    images:['../api/assets/img/0093','../api/assets/img/0093_a','../api/assets/img/0093_b'],
     typ: ["stříbro"],
     material: ["stříbro", "drahé kameny"],
     technika: ["klenotnická technika"],
@@ -172,6 +184,7 @@ export const DATA = [
   {
     id:"agkuiuhto",
     cislo_fotky: "284",
+    images:['../api/assets/img/0284'],
     typ: ["naušnice"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["kované", "tepané"],
@@ -185,6 +198,7 @@ export const DATA = [
   {
     id:"lklijuhto",
     cislo_fotky: "332",
+    // images:['../api/assets/img/0017'],
     typ: ["přívěšek"],
     material: ["chirurgická ocel", "skleněné"],
     technika: ["kované", "tepané"],
@@ -198,6 +212,7 @@ export const DATA = [
   {
     id:"lkdsjmion",
     cislo_fotky: "49",
+    images:['../api/assets/img/0049'],
     typ: ["náhrdelník"],
     material: ["chirurgická ocel", "fosílie"],
     technika: ["kované", "tepané"],
@@ -211,6 +226,7 @@ export const DATA = [
   {
     id:"lkdsoehto",
     cislo_fotky: "43",
+    images:['../api/assets/img/0043'],
     typ: ["přívěšek"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["kované", "tepané"],
@@ -224,6 +240,7 @@ export const DATA = [
   {
     id:"qltnnbto",
     cislo_fotky: "160",
+    images:['../api/assets/img/0160'],
     typ: ["náhrdelník"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["kované", "tepané"],
@@ -237,6 +254,7 @@ export const DATA = [
   {
     id:"lkdsjionb",
     cislo_fotky: "137",
+    images:['../api/assets/img/0137'],
     typ: ["brož", "spona na oděv"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["kované", "tepané"],
@@ -250,6 +268,7 @@ export const DATA = [
   {
     id:"ikvaeqgto",
     cislo_fotky: "64",
+    images:['../api/assets/img/0064_a','../api/assets/img/0064_b'],
     typ: ["náhrdelník"],
     material: ["chirurgická ocel", "drahé kameny"],
     technika: ["kované", "tepané"],

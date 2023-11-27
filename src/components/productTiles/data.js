@@ -1,0 +1,62 @@
+export const tiles =[
+    {
+        id:1,
+        imgSrc:"",
+        title:"Náhrdelníky"
+    },
+    {
+        id:2,
+        imgSrc:"",
+        title:"Naušnice"
+    },
+    {
+        id:3,
+        imgSrc:"",
+        title:"Wire-wrapping"
+    },
+    {
+        id:4,
+        imgSrc:"",
+        title:"České kameny"
+    },
+    {
+        id:5,
+        imgSrc:"",
+        title:"Kousek Islandu"
+    },
+    {
+        id:6,
+        imgSrc:"",
+        title:"Strážci a andělé"
+    },
+    {
+        id:7,
+        imgSrc:"",
+        title:"Okřídlení"
+    },
+    {
+        id:8,
+        imgSrc:"",
+        title:"Vltavíny"
+    },
+    {
+        id:9,
+        imgSrc:"",
+        title:"Fosilie"
+    },
+    {
+        id:10,
+        imgSrc:"",
+        title:"Drahé kovy"
+    },
+    {
+        id:11,
+        imgSrc:"",
+        title:"Ostatní"
+    },
+    {
+        id:12,
+        imgSrc:"",
+        title:"Novinky"
+    },
+]

@@ -59,7 +59,7 @@ export const COLLECTION = {
 };
 
 export const STONE = {
-  ACHAT:"",
+  ACHAT:"achát",
 
 
 };
