@@ -1,0 +1,16 @@
+.header__banner{
+    background-image:url('../../assets/img/0076orez.png');
+    background-position:center;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.header__title{
+    color:white;
+    text-align:center;
+}
+/* .header__back{
+    background-color:brown;
+    width:20vw;
+    height:10wh;
+    opacity:0.4;
+} */

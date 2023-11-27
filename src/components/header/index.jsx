@@ -1,10 +1,13 @@
+import './style.css'
 import { Navigation } from "../navigation"
 
 export const Header = () => {
     return (
         <div>
-            <div>
-                <h1>Jitka Pfau ~ autorske sperky</h1>
+            <div className="header__banner">
+                <div className="header__back">
+                <h1 className="header__title">Jitka Pfau ~ autorské šperky</h1>
+                </div>
             </div>
             <Navigation />
         </div>

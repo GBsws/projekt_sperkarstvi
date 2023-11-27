@@ -9,13 +9,14 @@ import { OrderAndShipmentPage } from "./pages/order-and-shipment";
 import { ContactsPage } from "./pages/contacts";
 import { SaleActionsPage } from "./pages/sale-actions";
 import { WorkshopPage } from "./pages/workshop";
-// import { Layout } from "./components/layout";
 import { Layout } from "./components/Layout";
+import { ErrorPage } from "./pages/error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    errorElement:<ErrorPage/>,
     children: [
       {
         path: "/",

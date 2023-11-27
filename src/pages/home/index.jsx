@@ -1,4 +1,4 @@
-//import { ProductTypeTile } from "../..productTypeTile";
+import './style.css' 
 import { PRODUCT_TYPE } from "../../constants"
 import { ProductTypeTile} from "../../components/productTypeTile"
 
