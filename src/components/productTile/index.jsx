@@ -1,7 +1,7 @@
 import "./style.css";
 import { Link } from "react-router-dom";
 
-export const ProductTypeTile = ({ type }) => {
+export const ProductTile = ({ type }) => {
   return (
     <Link to={`/vyrobky?type=${type}`}>
           <img src="" alt="" />

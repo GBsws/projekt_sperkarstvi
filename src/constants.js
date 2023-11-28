@@ -136,5 +136,4 @@ export const STONE = {
   WAVELIT: "wavelit",
   ZAHNEDA: "záhněda",
   ZELEZITY_KREMEN: "železitý křemen",
-
 };
