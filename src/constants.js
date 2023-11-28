@@ -12,25 +12,24 @@ export const PRODUCT_TYPE = {
 };
 
 export const MATERIALS = {
-  BRASS: "mosaz",
-  CERAMICS: "keramika",
-  COMMON_METAL: "obecný kov",
-  GEMSTONES: "drahé kameny",
-  COPPER: "měď",
-  FOSSILS: "fosilie",
-  GLASS: "skleněné",
-  GOLD: "zlato",
-  BRONZE: "bronz",
-  RECYCLED: "recyklované",
-  SILVER: "stříbro",
-  STEEL: "chirurgická ocel",
-  STONES: "(ne)obyčejné oblázky",
-  WOOD: "dřevo a jiné přírodniny",
+  MOSAZ: "mosaz",
+  KERAMIKA: "keramika",
+  OBECNY_KOV: "obecný kov",
+  DRAHE_KAMENY: "drahé kameny",
+  MED: "měď",
+  SKLENENE: "skleněné",
+  ZLATO: "zlato",
+  BRONZ: "bronz",
+  RECYKLOVANE: "recyklované",
+  STRIBRO: "stříbro",
+  CHIRURGICKA_OCEL: "chirurgická ocel",
+  OBLAZKY: "(ne)obyčejné oblázky",
+  PRIRODNINY: "dřevo a jiné přírodniny",
 };
 
 export const LOCATION = {
-  CZECH: "české",
-  FOREIGN: "zahraniční",
+  CESKE: "české",
+  ZAHRANICNI: "zahraniční",
 };
 
 export const TREATMENT = {
@@ -39,23 +38,23 @@ export const TREATMENT = {
   VYBRUSY: "výbrusy",
 };
 export const METHOD = {
-  FORGED: "kované tepané",
+  KOVANE: "kované tepané",
   WIRE_WRAPPING: "wire-wrapping",
-  JEWELLERS_METHOD: "klenotnická technika",
+  KLENOTNICKA_TECHNIKA: "klenotnická technika",
 };
 export const MOTIVE = {
-  ZOOMORPHIC: "zoomorfní",
-  FYTOMORPHIC: "fytomorfní",
-  ANTROPOMORPHIC: "antropomorfní",
-  ABSTRACT: "abstraktní a jiné",
+  ZOOMORFNI: "zoomorfní",
+  FYTOMORFNI: "fytomorfní",
+  ANTROPOMORFNI: "antropomorfní",
+  ABSTRAKTNI: "abstraktní a jiné",
 };
 export const COLLECTION = {
   ISLAND: "kousek Islandu",
   MAROKO: "Marokem",
   OKRIDLENI: "Okřídlení",
   ANDELE: "Strážci a andělé",
-  CESKA: "Země Česká",
-  DAVNO: "Z dávných dob",
+  ZEME_CESKA: "Země Česká",
+  DAVNE_DOBY: "Z dávných dob",
 };
 
 export const STONE = {

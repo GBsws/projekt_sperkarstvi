@@ -1,12 +1,48 @@
-.product_type_tile__button {
+/* .product_type_tile__button {
   background-image: url("../../assets/img/favicon_0337_2.png");
   object-fit: cover;
   height: 10vh;
   width: 10vw;
   
-}
+} */
 /* .grid-container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
+} */
+
+
+body {
+  margin: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  /* grid-gap: 10px; */
+  background-color: #f1e4e4;
+  color: #bba4a4;
+}
+
+.product_type_tile__button {
+  background-color: #ca1919;
+  color: #fff;
+  border-radius: 15px solid pink;
+  /* padding: 20px; */
+  font-size: 100%;
+  aspect-ratio: 4 / 3;
+  width: 100px;
+}
+
+/* @media (min-width: 800px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 } */

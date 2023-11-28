@@ -1,4 +1,4 @@
-.header__banner{
+/* .header__banner{
     background-image:url('../../assets/img/0076orez.png');
     background-position:center; 
     background-size:100% 100%;
@@ -14,4 +14,32 @@
     background-color:brown;
     display: inline-block;
     opacity:0.4;
+}  */
+
+.header__banner{
+    background-image:url('../../assets/img/0076orez.png');
+    background-position:center; 
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+
+    object-fit: cover;
+    height:20vh;
+}
+.header__title{
+    color:white;
+    text-align:center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.header__back{
+    background-color:rgb(231, 44, 6);
+    margin: 0px 300px 0px 300px;
+    opacity:0.4;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
+    
 } 
+
