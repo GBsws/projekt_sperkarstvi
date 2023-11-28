@@ -59,7 +59,6 @@ export const COLLECTION = {
 };
 
 export const STONE = {
-
   ACHAT: "achát",
   AKVAMARIN: "akvamarín",
   AMAZONIT: "amazonit",
