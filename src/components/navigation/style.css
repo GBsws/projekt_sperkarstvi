@@ -3,6 +3,7 @@
     justify-content: space-around;
     background-color:seashell;
     padding:1em;
+    font-weight: bold;
 }
 .navigation__link{
     text-decoration:none;
