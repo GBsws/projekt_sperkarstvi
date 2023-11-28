@@ -198,7 +198,7 @@ export const DATA = [
   {
     id:"lklijuhto",
     cislo_fotky: "332",
-    // images:['../api/assets/img/0017'],
+    images:['../api/assets/img/0332'],
     typ: ["přívěšek"],
     material: ["chirurgická ocel", "skleněné"],
     technika: ["kované", "tepané"],
