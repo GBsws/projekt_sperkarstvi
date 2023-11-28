@@ -11,7 +11,6 @@ import { Link } from "react-router-dom";
 // };
 
 
-
 export const ProductTile = ({ type }) => {
   return (
     <Link to={`/vyrobky?type=${type}`}>

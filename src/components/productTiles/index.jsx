@@ -1,6 +1,6 @@
 import { ProductTile } from "../productTypeTile";
 import { tiles } from "./data";
-import imgSrc from '../../assets/img'
+// import imgSrc from '../../assets/img'
 
 export const ProductTiles=()=>{
 tiles.map((tile)=>{

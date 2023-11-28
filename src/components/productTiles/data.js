@@ -1,62 +1,77 @@
-export const tiles =[
+import { useParams } from "react-router-dom";
+
+  const tiles =[
     {
         id:1,
-        imgSrc:"",
-        title:"Náhrdelníky"
+        imgSrc:'../../assets/img/nahrdel0385.JPG',
+        title:"Náhrdelníky",
     },
     {
         id:2,
-        imgSrc:"",
-        title:"Naušnice"
+        imgSrc:'../../assets/img/naus0169.JPG',
+        title:"Naušnice",
     },
     {
         id:3,
-        imgSrc:"",
-        title:"Wire-wrapping"
+        imgSrc:'../../assets/img/wire0157.jpg',
+        title:"Wire-wrapping",
     },
     {
         id:4,
-        imgSrc:"",
-        title:"České kameny"
+        imgSrc:"../../assets/img/ceske0089.jpg",
+        title:"České kameny",
     },
     {
         id:5,
-        imgSrc:"",
-        title:"Kousek Islandu"
+        imgSrc:"../../assets/img/isla0060.jpg",
+        title:"Kousek Islandu",
     },
     {
         id:6,
-        imgSrc:"",
-        title:"Strážci a andělé"
+        imgSrc:"../../assets/img/andele0208.JPG",
+        title:"Strážci a andělé",
     },
     {
         id:7,
-        imgSrc:"",
-        title:"Okřídlení"
+        imgSrc:"../../assets/img/okrid0080.jpg",
+        title:"Okřídlení",
     },
     {
         id:8,
-        imgSrc:"",
-        title:"Vltavíny"
+        imgSrc:"../../assets/img/vltavin0354.JPG",
+        title:"Vltavíny",
     },
     {
         id:9,
-        imgSrc:"",
-        title:"Fosilie"
+        imgSrc:"../../assets/img/fosilie0306.JPG",
+        title:"Fosilie",
     },
     {
         id:10,
-        imgSrc:"",
-        title:"Drahé kovy"
+        imgSrc:"../../assets/img/drahe0363.JPG",
+        title:"Drahé kovy",
     },
     {
         id:11,
-        imgSrc:"",
-        title:"Ostatní"
+        imgSrc:"../../assets/img/fytom0081.jpg",
+        title:"Fytomorfní",
     },
     {
         id:12,
-        imgSrc:"",
-        title:"Novinky"
+        imgSrc:"../../assets/img/novinky0055.jpg",
+        title:"Novinky",
     },
 ]
+
+export const productTiles=()=>{
+    const {ProductId} =useParams();
+    const productData =tiles.find((tile)=>tile.id===(ProductId));
+    // const {material}= product
+   return(
+    <div>
+        <h3>
+           Obrázek: {productData.imgSrc} Název:({productData.title})
+        </h3>
+    </div>
+   )
+}
