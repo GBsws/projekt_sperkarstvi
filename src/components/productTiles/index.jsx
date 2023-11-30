@@ -1,7 +1,5 @@
-//import { tiles } from "./data";
-// import imgSrc from '../../assets/img'
 //import { useParams } from "react-router-dom";
-import { ProductTile } from "../productTile";
+import { ProductTile } from "../productTile"
 
 export const ProductTiles=()=>{
   const tiles =[
@@ -67,10 +65,11 @@ export const ProductTiles=()=>{
     },
 ]
 return(
-    {tiles.map((tile)=>{
-         <ProductTile key={tile.id} imgSrc={tile.imgSrc} title={tile.title}/>}
-    )})
-  }
+  tiles.map((tile)=>{
+      return <ProductTile key={tile.id} imgSrc={tile.imgSrc} title={tile.title}/>})
+   )
+}
+
 
 
 {/* // export const productTiles=()=>{

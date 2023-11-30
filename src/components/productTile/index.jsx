@@ -2,16 +2,12 @@ import "./style.css";
 import { Link } from "react-router-dom";
 
 
-export const ProductTile = ({ type }) => {
-  
+export const ProductTile = ({ type,imgSrc,title }) => {
+  console.log('co jsou imag',imgSrc)
   return (
-    <> 
     <Link to={`/vyrobky?type=${type}`}>
-      <button className="product_type_tile_button">
-        <img src="" alt="" />
+        <img className="product-tile__image" src={imgSrc} alt={title}/>
         <div>{type}</div>
-      </button>
     </Link>
-    </>
   );
 };

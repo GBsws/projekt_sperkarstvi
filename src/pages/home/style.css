@@ -1,0 +1,8 @@
+.home__grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    background-color: #f1e4e4;
+    color: #bba4a4;
+    text-decoration:none;
+  }
