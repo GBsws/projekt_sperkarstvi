@@ -19,17 +19,19 @@ export const ProductTiles=()=>{
         id:1,
         imgSrc:necklaceImg,
         title:"Náhrdelníky",
+        typ:"nahrdelnik",
     },
     {
         id:2,
         imgSrc:earringImg,
         title:"Naušnice",
+        typ:"naušnice",
     },
     {
         id:3,
         imgSrc:wireWrappingImg,
         title:"Wire-wrapping",
-        //method:"wire-wrapping",
+        method:"wire-wrapping",
     },
     {
         id:4,
