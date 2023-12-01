@@ -1,16 +1,19 @@
 import "./style.css";
 export const WorkshopPage = () => {
   return (
-    <>
-      <div>Moje šperkařská dílna</div>
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. A illo magnam
-        nulla corrupti voluptatem eum excepturi explicabo, nesciunt odit in
-        eaque architecto, asperiores ipsam id recusandae ullam repudiandae
-        consequuntur harum!
+    <div>
+    <div>
+      <br></br>
+      <h2>ŠPERKAŘSKÝ ATELIÉR</h2>
+      <p>Aktuálně vyrábím šperky v ateliéru v centru Hradce Králové, po dohodě je možná osobní konzultace při výrobě šperku na zakázku, vyzvednutí hotových šperků apod.
       </p>
-    </>
+    </div>
+      <div className="box_dilna">
+        <img className="image" src="../../assets/img/dilna0241.jpg" />
+        <img className="image" src="../../assets/img/dilna0241_a.jpg" />
+        <img className="image" src="../../assets/img/dilna0241_b.jpg" />
+        <img className="image" src="../../assets/img/dilna0241_c.jpg" />
+      </div>
+    </div>
   );
 };

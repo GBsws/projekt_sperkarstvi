@@ -1,0 +1,13 @@
+.box_dilna {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+
+.image {
+  margin-bottom: 0px;
+  width: 100%;
+  border: 15px;
+  padding-top: 5px;
+}
