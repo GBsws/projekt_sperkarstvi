@@ -42,6 +42,7 @@ export const FilterForm =()=>{
         //     {/* {journey===null ? null :  <JourneyDetail journey={journey}/>} jiný zápis stejného viz výše*/}
         //   </main>
         // );
+        
         <aside>
         <h4>Nadpis-typ,motiv,kameny,kolekce,material,technika,opracovani,lokalita ▶ ▼</h4>
         

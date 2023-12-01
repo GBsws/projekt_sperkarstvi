@@ -1,66 +1,78 @@
 //import { useParams } from "react-router-dom";
 import { ProductTile } from "../productTile"
+import necklaceImg from "../../assets/img/nahrdel0385.jpg"
+import earringImg from "../../assets/img/naus0169.jpg"
+import wireWrappingImg from '../../assets/img/wire0157.jpg'
+import czechStoneImg from '../../assets/img/ceske0089.jpg'
+import icelandImg from '../../assets/img/isla0060.jpg'
+import angelsImg from '../../assets/img/andele0208.jpg'
+import wingsImg from '../../assets/img/okrid0080.jpg'
+import moldaviteImg from '../../assets/img/vltavin0354.jpg'
+import fossilImg from '../../assets/img/fosilie0306.jpg'
+import preciousImg from '../../assets/img/drahe0363.jpg'
+import fytomorphicImg from '../../assets/img/fytom0081.jpg'
+import newsImg from '../../assets/img/novinky0055.jpg'
 
 export const ProductTiles=()=>{
   const tiles =[
     {
         id:1,
-        imgSrc:'../../assets/img/nahrdel0385.JPG',
+        imgSrc: necklaceImg,
         title:"Náhrdelníky",
     },
     {
         id:2,
-        imgSrc:'../../assets/img/naus0169.JPG',
+        imgSrc: earringImg,
         title:"Naušnice",
     },
     {
         id:3,
-        imgSrc:'../../assets/img/wire0157.jpg',
+        imgSrc :wireWrappingImg,
         title:"Wire-wrapping",
     },
     {
         id:4,
-        imgSrc:"../../assets/img/ceske0089.jpg",
+        imgSrc: czechStoneImg,
         title:"České kameny",
     },
     {
         id:5,
-        imgSrc:"../../assets/img/isla0060.jpg",
+        imgSrc: icelandImg,
         title:"Kousek Islandu",
     },
     {
         id:6,
-        imgSrc:"../../assets/img/andele0208.JPG",
+        imgSrc: angelsImg,
         title:"Strážci a andělé",
     },
     {
         id:7,
-        imgSrc:"../../assets/img/okrid0080.jpg",
+        imgSrc: wingsImg,
         title:"Okřídlení",
     },
     {
         id:8,
-        imgSrc:"../../assets/img/vltavin0354.JPG",
+        imgSrc :moldaviteImg,
         title:"Vltavíny",
     },
     {
         id:9,
-        imgSrc:"../../assets/img/fosilie0306.JPG",
+        imgSrc: fossilImg,
         title:"Fosilie",
     },
     {
         id:10,
-        imgSrc:"../../assets/img/drahe0363.JPG",
+        imgSrc: preciousImg,
         title:"Drahé kovy",
     },
     {
         id:11,
-        imgSrc:"../../assets/img/fytom0081.jpg",
+        imgSrc: fytomorphicImg,
         title:"Fytomorfní",
     },
     {
         id:12,
-        imgSrc:"../../assets/img/novinky0055.jpg",
+        imgSrc: newsImg,
         title:"Novinky",
     },
 ]
