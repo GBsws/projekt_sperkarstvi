@@ -17,58 +17,67 @@ export const ProductTiles=()=>{
   const tiles =[
     {
         id:1,
-        imgSrc: necklaceImg,
+        imgSrc:necklaceImg,
         title:"Náhrdelníky",
     },
     {
         id:2,
-        imgSrc: earringImg,
+        imgSrc:earringImg,
         title:"Naušnice",
     },
     {
         id:3,
-        imgSrc :wireWrappingImg,
+        imgSrc:wireWrappingImg,
         title:"Wire-wrapping",
+        //method:"wire-wrapping",
     },
     {
         id:4,
-        imgSrc: czechStoneImg,
+        imgSrc:czechStoneImg,
         title:"České kameny",
+        collection:"Země česká",
     },
     {
         id:5,
-        imgSrc: icelandImg,
+        imgSrc:icelandImg,
         title:"Kousek Islandu",
+        collection:"Kousek Islandu",
     },
     {
         id:6,
         imgSrc: angelsImg,
         title:"Strážci a andělé",
+        collection:"Strážci a andělé",
     },
     {
         id:7,
         imgSrc: wingsImg,
         title:"Okřídlení",
+        collection:"Okřídlení"
     },
     {
         id:8,
         imgSrc :moldaviteImg,
         title:"Vltavíny",
+        stone:"vltavín"
     },
     {
         id:9,
         imgSrc: fossilImg,
         title:"Fosilie",
+        stone:"fosilie"
     },
     {
         id:10,
         imgSrc: preciousImg,
         title:"Drahé kovy",
+        material:"zlato",
     },
     {
         id:11,
         imgSrc: fytomorphicImg,
         title:"Fytomorfní",
+        motive:"fytomorfní",
     },
     {
         id:12,
@@ -78,7 +87,7 @@ export const ProductTiles=()=>{
 ]
 return(
   tiles.map((tile)=>{
-      return <ProductTile key={tile.id} imgSrc={tile.imgSrc} title={tile.title}/>})
+      return <ProductTile key={tile.id} {...tile}/>})
    )
 }
 

@@ -49,7 +49,7 @@ export const MOTIVE = {
   ABSTRAKTNI: "abstraktní a jiné",
 };
 export const COLLECTION = {
-  ISLAND: "kousek Islandu",
+  ISLAND: "Kousek Islandu",
   MAROKO: "Marokem",
   OKRIDLENI: "Okřídlení",
   ANDELE: "Strážci a andělé",

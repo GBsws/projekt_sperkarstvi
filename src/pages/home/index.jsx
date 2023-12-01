@@ -5,12 +5,12 @@ import { ProductTiles } from '../../components/productTiles'
 export const HomePage = () => {
   return (
     <>
-    <div className="home__grid">
+    {/* <div className="home__grid">
       {Object.values(PRODUCT_TYPE).map((type) => {
         return <ProductTile key={type} type={type} />
       })}
-    </div>
-    <div className="home__photo">
+    </div> */}
+    <div className="home__grid">
       <ProductTiles />
     </div>
     </>

@@ -1,14 +1,16 @@
-.product-tile__button {
-  color: #fff;
-  border-radius: 15px;
-  /* padding: 20px; */
-  font-size: 100%;
-  aspect-ratio: 4 / 3;
-}
 .product-tile__image{
-  height:10vh;
-  width:10vw;
+  height:15vh;
+  width:15vw;
 }
+/* .product-tile__name{
+  text-decoration:none;
+  color:black;
+  text-align:center;
+}
+.product-tile__title{
+  text-decoration:none;
+  color:black;
+} */
 
 /* @media (min-width: 800px) {
   .grid-container {
