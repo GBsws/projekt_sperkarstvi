@@ -2,6 +2,7 @@ import './style.css'
 import { TYPE } from "../../constants"
 import { ProductTile } from '../../components/productTile'
 import { ProductTiles } from '../../components/productTiles'
+
 export const HomePage = () => {
   return (
     <>

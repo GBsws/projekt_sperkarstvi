@@ -19,7 +19,6 @@ export const ProductTile = ({
 		>
 			<img className='product-tile__image' src={imgSrc} alt={title} />
 			<p className='product-tile__title'>{title}</p>
-			<div className='product-tile__type'>{type}</div>
 		</Link>
 	)
 }

@@ -1,7 +1,7 @@
 import './style.css'
 import {useState} from 'react'
 export const CollapseBox = ({ title,children}) => {
-    const [boxCollapsed,setBoxCollapsed]= useState(true)
+    const [boxCollapsed,setBoxCollapsed]= useState(false)
   return (
     <>
     <div className="collapse-box">
