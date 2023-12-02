@@ -12,7 +12,7 @@
 } */
 
 .footer {
-  position: fixed;
+  /* position: fixed;  */
   background-color: lightcoral;
   font-weight: bold;
   bottom: 0;

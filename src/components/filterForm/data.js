@@ -7,7 +7,7 @@ export const MATERIAL_FILTERS = [
     },
     {
         id: MATERIALS.COPPER,
-        label: 'Med',
+        label: 'Meď',
     },
     {
         id: MATERIALS.KERAMIKA,
@@ -15,15 +15,15 @@ export const MATERIAL_FILTERS = [
     },
     {
         id: MATERIALS.OBECNY_KOV,
-        label: 'Obecny kov',
+        label: 'Obecný kov',
     },
     {
         id: MATERIALS.DRAHE_KAMENY,
-        label: 'Drahe kameny',
+        label: 'Drahé kameny',
     },
     {
         id: MATERIALS.SKLENENE,
-        label: 'Sklenene',
+        label: 'Skleněné',
     },
     {
         id: MATERIALS.ZLATO,
@@ -35,46 +35,46 @@ export const MATERIAL_FILTERS = [
     },
     {
         id: MATERIALS.RECYKLOVANE,
-        label: 'Recyklovane',
+        label: 'Recyklované',
     },
     {
         id: MATERIALS.STRIBRO,
-        label: 'Stribro',
+        label: 'Stříbro',
     },
     {
         id: MATERIALS.CHIRURGICKA_OCEL,
-        label: 'Chirurgicka ocel',
+        label: 'Chirurgická ocel',
     },
     {
         id: MATERIALS.OBLAZKY,
-        label: 'Oblazky',
+        label: 'Oblázky',
     },
     {
         id: MATERIALS.PRIRODNINY,
-        label: 'Prirodniny',
+        label: 'Přírodniny',
     },
 ]
 
 export const TYPE_FILTERS = [
     {
         id: TYPE.BROZ,
-        label: 'Broz',
+        label: 'Brož',
     },
     {
         id: TYPE.NAHRDELNIK,
-        label: 'Nahrdelnik',
+        label: 'Náhrdelník',
     },
     {
         id: TYPE.NARAMEK,
-        label: 'Naramek',
+        label: 'Náramek',
     },
     {
         id: TYPE.NAUSNICE,
-        label: 'Nausnice',
+        label: 'Náušnice',
     },
     {
         id: TYPE.PRIVESEK,
-        label: 'Privesek',
+        label: 'Přívěšek',
     },
     {
         id: TYPE.PRSTEN,
@@ -82,7 +82,7 @@ export const TYPE_FILTERS = [
     },
     {
         id: TYPE.SPONA_NA_ODEV,
-        label: 'Spona na odev',
+        label: 'Spona na oděv',
     },
     {
         id: TYPE.SOUPRAVA,
@@ -90,7 +90,7 @@ export const TYPE_FILTERS = [
     },
     {
         id: TYPE.OZDOBA_DO_VLASU,
-        label: 'Ozdoba do vlasu',
+        label: 'Ozdoba do vlasů',
     },
     {
         id: TYPE.FIGURKA,
@@ -101,32 +101,32 @@ export const TYPE_FILTERS = [
 export const LOCATION_FILTERS = [
     {
         id: LOCATION.CESKE,
-        label: 'Ceske',
+        label: 'České',
     },
     {
         id: LOCATION.ZAHRANICNI,
-        label: 'Zahranicni',
+        label: 'Zahraniční',
     },
 ]
 
 export const TREATMENT_FILTERS = [
     {
         id: TREATMENT.SUROVE,
-        label: 'Surove',
+        label: 'Surové',
     },
     {
         id: TREATMENT.LESTENE,
-        label: 'Lestene',
+        label: 'Leštěné',
     },
     {
         id: TREATMENT.VYBRUSY,
-        label: 'Vybrusy',
+        label: 'Výbrusy',
     },
 ]
 export const METHOD_FILTERS = [
     {
         id: METHOD.KOVANE,
-        label: 'Kovane tepane',
+        label: 'Kované tepané',
     },
     {
         id: METHOD.WIRE_WRAPPING,
@@ -134,26 +134,26 @@ export const METHOD_FILTERS = [
     },
     {
         id: METHOD.KLENOTNICKA_TECHNIKA,
-        label: 'Klenotnicka technika',
+        label: 'Klenotnická technika',
     },
 ]
 
 export const MOTIVE_FILTERS = [
     {
         id: MOTIVE.ZOOMORFNI,
-        label: 'Zoomorfni',
+        label: 'Zoomorfní',
     },
     {
         id: MOTIVE.FYTOMORFNI,
-        label: 'Fytomorfni',
+        label: 'Fytomorfní',
     },
     {
         id: MOTIVE.ANTROPOMORFNI,
-        label: 'Antropomorfni',
+        label: 'Antropomorfní',
     },
     {
         id: MOTIVE.ABSTRAKTNI,
-        label: 'Abstraktni a jine',
+        label: 'Abstraktní a jiné',
     },
 ]
 
@@ -168,30 +168,30 @@ export const COLLECTION_FILTERS = [
     },
     {
         id: COLLECTION.OKRIDLENI,
-        label: 'Okridleni',
+        label: 'Okřídlení',
     },
     {
         id: COLLECTION.ANDELE,
-        label: 'Strazci a andele',
+        label: 'Strážci a andělé',
     },
     {
         id: COLLECTION.ZEME_CESKA,
-        label: 'Zeme Ceska',
+        label: 'Země Česká',
     },
     {
         id: COLLECTION.DAVNE_DOBY,
-        label: 'Z davnych dob',
+        label: 'Z dávných dob',
     },
 ]
 
 export const STONE_FILTERS = [
     {
         id: STONE.ACHAT,
-        label: 'Achat',
+        label: 'Achát',
     },
     {
         id: STONE.AKVAMARIN,
-        label: 'Akvamarin',
+        label: 'Akvamarín',
     },
     {
         id: STONE.AMAZONIT,
@@ -215,7 +215,7 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.AUSTRALSKY_DRAHY_OPAL,
-        label: 'Australsky drahy opal',
+        label: 'Australský drahý opál',
     },
     {
         id: STONE.CELESTIN,
@@ -223,23 +223,23 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.CITRIN,
-        label: 'Citrin',
+        label: 'Citrín',
     },
     {
         id: STONE.CAROIT,
-        label: 'Caroit',
+        label: 'Čaroit',
     },
     {
         id: STONE.CERNA_BAROKNI_PERLA,
-        label: 'Cerna barokni perla',
+        label: 'Černá barokní perla',
     },
     {
         id: STONE.DINOSAURI_KOST,
-        label: 'Dinosauri kost',
+        label: 'Dinosauří kost',
     },
     {
         id: STONE.DRAHY_OPAL,
-        label: 'Drahy opal',
+        label: 'Drahý opál',
     },
     {
         id: STONE.FLUORIT,
@@ -247,11 +247,11 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.FOSILIE,
-        label: 'Fosilie',
+        label: 'Fosílie',
     },
     {
         id: STONE.GRANAT,
-        label: 'Granat',
+        label: 'Granát',
     },
     {
         id: STONE.HEMATIT,
@@ -275,7 +275,7 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.JISKRIVEC,
-        label: 'Jiskrivec',
+        label: 'Jiskřivec',
     },
     {
         id: STONE.KALCIT,
@@ -291,19 +291,19 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.KORAL,
-        label: 'Koral',
+        label: 'Korál',
     },
     {
         id: STONE.KREMENNA_HMOTA,
-        label: 'Kremenná hmota',
+        label: 'Křemenná hmota',
     },
     {
         id: STONE.KRISTAL,
-        label: 'Kristal',
+        label: 'Křišťál',
     },
     {
         id: STONE.KUBICKY_ZIRKON,
-        label: 'Kubicky zirkon',
+        label: 'Kubický zirkon',
     },
     {
         id: STONE.KYANIT,
@@ -323,15 +323,15 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.LAVA,
-        label: 'Lava',
+        label: 'Láva',
     },
     {
         id: STONE.LAVOVY_OBLAZEK,
-        label: 'Lavový oblazek',
+        label: 'Lávový oblázek',
     },
     {
         id: STONE.LYBIJSKE_SKLO,
-        label: 'Lybijske sklo',
+        label: 'Lybijské sklo',
     },
     {
         id: STONE.MALACHIT,
@@ -339,15 +339,15 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.MESICNI_KAMEN,
-        label: 'Mesicni kamen',
+        label: 'Měsiční kámen',
     },
     {
         id: STONE.MEXICKY_OHNIVY_OPAL,
-        label: 'Mexicky ohnivy opal',
+        label: 'Mexický ohnivý opál',
     },
     {
         id: STONE.MODRY_KREMEN,
-        label: 'Modry kremen',
+        label: 'Modrý křemen',
     },
     {
         id: STONE.OBSIDIAN,
@@ -355,27 +355,27 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.OCEANOVY_JASPIS,
-        label: 'Oceanovy jaspis',
+        label: 'Oceánový jaspis',
     },
     {
         id: STONE.OHNIVY_OPAL,
-        label: 'Ohnivy opal',
+        label: 'Ohnivý opál',
     },
     {
         id: STONE.OLIVIN,
-        label: 'Olivin',
+        label: 'Olivín',
     },
     {
         id: STONE.OLIVINY,
-        label: 'Oliviny',
+        label: 'Olivíny',
     },
     {
         id: STONE.OPAL,
-        label: 'Opal',
+        label: 'Opál',
     },
     {
         id: STONE.OPALIZOVANE_DREVO,
-        label: 'Opalizovane drevo',
+        label: 'Opalizované dřevo',
     },
     {
         id: STONE.ORTHOCERAS,
@@ -411,15 +411,15 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.RUBIN,
-        label: 'Rubin',
+        label: 'Rubín',
     },
     {
         id: STONE.RUZENIN,
-        label: 'Ruzenin',
+        label: 'Růženín',
     },
     {
         id: STONE.SAFIR,
-        label: 'Safir',
+        label: 'Safír',
     },
     {
         id: STONE.SAGENIT,
@@ -427,7 +427,7 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.SEPTARIE,
-        label: 'Septarie',
+        label: 'Septárie',
     },
     {
         id: STONE.SMARAGD,
@@ -439,7 +439,7 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.SOKOLI_OKO,
-        label: 'Sokoli oko',
+        label: 'Sokolí oko',
     },
     {
         id: STONE.SPESSARTIN,
@@ -451,7 +451,7 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.SUROVA_LAVA,
-        label: 'Surova lava',
+        label: 'Surová láva',
     },
     {
         id: STONE.SVOR,
@@ -463,7 +463,7 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.TURMALIN,
-        label: 'Turmalin',
+        label: 'Turmalín',
     },
     {
         id: STONE.TYRKENIT,
@@ -475,7 +475,7 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.VLTAVIN,
-        label: 'Vltavin',
+        label: 'Vltavín',
     },
     {
         id: STONE.WAVELIT,
@@ -483,50 +483,51 @@ export const STONE_FILTERS = [
     },
     {
         id: STONE.ZAHNEDA,
-        label: 'Zahneda',
+        label: 'Záhněda',
     },
     {
         id: STONE.ZELEZITY_KREMEN,
-        label: 'Zelezity kremen',
+        label: 'Železitý křemen',
     },
 ]
 export const HEADER_FILTERS = [
     {
-       
+        id:'typ',
         label: 'Typ',
         items:TYPE_FILTERS,
     },
     {
-       
+        id:'motiv',
         label: 'Motiv',
         items:MOTIVE_FILTERS,
     },
     {
-        
+        id:'kameny',
         label: 'Kameny',
         items:STONE_FILTERS,
     },
     {
-      
+        id:'kolekce',
         label: 'Kolekce',
         items:COLLECTION_FILTERS,
     },
     {
-       
+        id:'material',
         label: 'Material',
         items:MATERIAL_FILTERS,
     },
     {
-       
+        id:'technika',
         label: 'Technika',
         items:METHOD_FILTERS,
     },
     {
+        id:'opracovani',
         label: 'Opracovani',
         items:TREATMENT_FILTERS,
     },
     {
-       
+        id:'lokalita',
         label: 'Lokalita',
         items:LOCATION_FILTERS,
     },

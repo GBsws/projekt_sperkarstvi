@@ -3,12 +3,12 @@ import { CollapseBox } from '../collapseBox'
 import {HEADER_FILTERS} from './data'
 
 
-export const FilterForm=()=>{
+export const FilterForm=({handleFilterChange,filter})=>{
 return (
 	<aside>
 		<form>
-            {HEADER_FILTERS.map((header)=>{return <CollapseBox key={header.label} title={header.label}><FilterFormItem items={header.items}/></CollapseBox>})}
-           
+            {HEADER_FILTERS.map((header)=>{return <CollapseBox key={header.label} title={header.label}><FilterFormItem filterId={header.id} filter={filter}handleFilterChange={handleFilterChange} key={header.id} items={header.items}/></CollapseBox>})}
+        
           
 			<button>Vymazat výběr</button>
 			<button>potvrdit výběr</button>

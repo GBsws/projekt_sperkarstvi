@@ -1,12 +1,26 @@
 import {FilterForm} from '../../components/filterForm'
-import {useQuery} from '../../hooks'
+import {useState} from 'react'
 
 export const ProductsPage = () => {
-	const query = useQuery()
+	const [filter, setFilter] = useState({})
+	const handleFilterChange = (filter, id, isChecked) => {
+		if (isChecked) {
+			const itemIndex = filter[filter].indexOf(id)
+			setFilter({
+				...filter,
+				[filter]: filter[filter].filter((item)=>id !== item),
+			})
+		} else {
+			setFilter({
+				...filter,
+				[filter]: [...filter[filter], id],
+			})
+		}
+	}
+
 	return (
 		<>
-			<FilterForm />
-			<div>type: {query.get('type')}</div>
+			<FilterForm filter={filter} handleFilterChange={handleFilterChange}/>
 		</>
 	)
 }
