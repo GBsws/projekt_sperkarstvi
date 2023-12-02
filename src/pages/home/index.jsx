@@ -6,7 +6,7 @@ export const HomePage = () => {
   return (
     <>
     {/* <div className="home__grid">
-      {Object.values(PRODUCT_TYPE).map((type) => {
+      {Object.values(TYPE).map((type) => {
         return <ProductTile key={type} type={type} />
       })}
     </div> */}

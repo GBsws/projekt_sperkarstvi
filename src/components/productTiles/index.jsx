@@ -1,4 +1,5 @@
 //import { useParams } from "react-router-dom";
+import './style.css'
 import { ProductTile } from "../productTile"
 import necklaceImg from "../../assets/img/nahrdel0385.jpg"
 import earringImg from "../../assets/img/naus0169.jpg"

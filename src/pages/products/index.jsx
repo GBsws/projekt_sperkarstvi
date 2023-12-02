@@ -1,8 +1,15 @@
 import {FilterForm} from '../../components/filterForm'
 import {useState} from 'react'
+import { FILTER_ID } from '../../components/filterForm/data'
+
+const defaultFilter = Object.values(FILTER_ID).reduce((acc,filterId)=>{
+	acc[filterId]=[]
+	return acc
+},{})
 
 export const ProductsPage = () => {
-	const [filter, setFilter] = useState({})
+	console.log('df',defaultFilter)
+	const [filter, setFilter] = useState(defaultFilter)
 	const handleFilterChange = (filter, id, isChecked) => {
 		if (isChecked) {
 			const itemIndex = filter[filter].indexOf(id)

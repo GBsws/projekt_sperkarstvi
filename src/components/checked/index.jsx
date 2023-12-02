@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import { HEADER_FILTERS } from '../filterForm/data'
 export const Checkbox = ({id,label,filter,filterId,handleFilterChange}) => {
     console.log('co je label',label)
