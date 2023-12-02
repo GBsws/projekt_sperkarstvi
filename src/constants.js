@@ -1,59 +1,60 @@
-export const PRODUCT_TYPE = {
-  BROZ: "brož",
-  NAHRDELNIK: "náhrdelník",
-  NARAMEK: "náramek",
-  NAUSNICE: "náušnice",
-  PRIVESEK: "přívěšek",
+
+export const TYPE = {
+  BROZ: "broz",
+  NAHRDELNIK: "nahrdelnik",
+  NARAMEK: "naramek",
+  NAUSNICE: "nausnice",
+  PRIVESEK: "privesek",
   PRSTEN: "prsten",
-  SPONA_NA_ODEV: "spona na oděv",
+  SPONA_NA_ODEV: "spona_na_odev",
   SOUPRAVA: "souprava",
-  OZDOBA_DO_VLASU: "ozdoba do vlasů",
+  OZDOBA_DO_VLASU: "ozdoba_do_vlasu",
   FIGURKA: "figurka",
 };
 
 export const MATERIALS = {
   MOSAZ: "mosaz",
   KERAMIKA: "keramika",
-  OBECNY_KOV: "obecný kov",
-  DRAHE_KAMENY: "drahé kameny",
-  MED: "měď",
-  SKLENENE: "skleněné",
+  OBECNY_KOV: "obecny kov",
+  DRAHE_KAMENY: "drahe kameny",
+  MED: "med",
+  SKLENENE: "sklenene",
   ZLATO: "zlato",
   BRONZ: "bronz",
-  RECYKLOVANE: "recyklované",
-  STRIBRO: "stříbro",
-  CHIRURGICKA_OCEL: "chirurgická ocel",
-  OBLAZKY: "(ne)obyčejné oblázky",
-  PRIRODNINY: "dřevo a jiné přírodniny",
+  RECYKLOVANE: "recyklovane",
+  STRIBRO: "stribro",
+  CHIRURGICKA_OCEL: "chirurgicka ocel",
+  OBLAZKY: "(ne)obycejne oblazky",
+  PRIRODNINY: "drevo a jine prirodniny",
 };
 
 export const LOCATION = {
-  CESKE: "české",
-  ZAHRANICNI: "zahraniční",
+  CESKE: "ceske",
+  ZAHRANICNI: "zahranicni",
 };
 
 export const TREATMENT = {
-  SUROVE: "surové",
-  LESTENE: "leštěné",
-  VYBRUSY: "výbrusy",
+  SUROVE: "surove",
+  LESTENE: "lestene",
+  VYBRUSY: "vybrusy",
 };
 export const METHOD = {
-  KOVANE: "kované tepané",
+  KOVANE: "kovane tepane",
   WIRE_WRAPPING: "wire-wrapping",
-  KLENOTNICKA_TECHNIKA: "klenotnická technika",
+  KLENOTNICKA_TECHNIKA: "klenotnicka technika",
 };
 export const MOTIVE = {
-  ZOOMORFNI: "zoomorfní",
-  FYTOMORFNI: "fytomorfní",
-  ANTROPOMORFNI: "antropomorfní",
-  ABSTRAKTNI: "abstraktní a jiné",
+  ZOOMORFNI: "zoomorfni",
+  FYTOMORFNI: "fytomorfni",
+  ANTROPOMORFNI: "antropomorfni",
+  ABSTRAKTNI: "abstraktni a jine",
 };
 export const COLLECTION = {
   ISLAND: "Kousek Islandu",
   MAROKO: "Marokem",
-  OKRIDLENI: "Okřídlení",
-  ANDELE: "Strážci a andělé",
-  ZEME_CESKA: "Země Česká",
+  OKRIDLENI: "Okridleni",
+  ANDELE: "Strazci a andele",
+  ZEME_CESKA: "Zeme Ceská",
   DAVNE_DOBY: "Z dávných dob",
 };
 

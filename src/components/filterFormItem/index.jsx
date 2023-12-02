@@ -1,11 +1,12 @@
-export const FilterFormItem=()=>{
+export const FilterFormItem=({items})=>{
+  console.log('co jsou items', items)
     return(
-        <form>
+      (items.map((item)=>
+        {return(
         <label htmlFor="lokalita">
           <input id="lokalita" className="field-input" type="checkbox" />
-          typ(10),material(14),kameny(desitky),kolekce(6)atd.
+          {item.label} 
         </label>
-      </form> 
-    )
-}
+    )}))
+)}
      

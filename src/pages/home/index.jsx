@@ -1,5 +1,5 @@
 import './style.css' 
-import { PRODUCT_TYPE } from "../../constants"
+import { TYPE } from "../../constants"
 import { ProductTile } from '../../components/productTile'
 import { ProductTiles } from '../../components/productTiles'
 export const HomePage = () => {
