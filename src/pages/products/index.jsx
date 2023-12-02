@@ -8,19 +8,18 @@ const defaultFilter = Object.values(FILTER_ID).reduce((acc,filterId)=>{
 },{})
 
 export const ProductsPage = () => {
-	console.log('df',defaultFilter)
 	const [filter, setFilter] = useState(defaultFilter)
-	const handleFilterChange = (filter, id, isChecked) => {
+	const handleFilterChange = (filterType, id, isChecked) => {
 		if (isChecked) {
-			const itemIndex = filter[filter].indexOf(id)
+			const itemIndex = filter[filterType].indexOf(id)
 			setFilter({
 				...filter,
-				[filter]: filter[filter].filter((item)=>id !== item),
+				[filterType]: filter[filterType].filter((item)=>id !== item),
 			})
 		} else {
 			setFilter({
 				...filter,
-				[filter]: [...filter[filter], id],
+				[filterType]: [...filter[filterType], id],
 			})
 		}
 	}

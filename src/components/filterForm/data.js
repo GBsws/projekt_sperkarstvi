@@ -490,56 +490,55 @@ export const STONE_FILTERS = [
 		label: 'Železitý křemen',
 	},
 ]
-export const FILTER_ID = 
-	{
-		MATERIALS: 'material',
-		STONE: 'stone',
-        TYPE:'type',
-        COLLECTION:'collection',
-        MOTIVE:'motive',
-        METHOD:'method',
-        TREATMENT:'treatment',
-        LOCATION:'location',
-	}
+export const FILTER_ID = {
+	MATERIALS: 'material',
+	STONE: 'stone',
+	TYPE: 'type',
+	COLLECTION: 'collection',
+	MOTIVE: 'motive',
+	METHOD: 'method',
+	TREATMENT: 'treatment',
+	LOCATION: 'location',
+}
 
 export const HEADER_FILTERS = [
 	{
-		id: 'typ',
+		id: FILTER_ID.TYPE,
 		label: 'Typ',
 		items: TYPE_FILTERS,
 	},
 	{
-		id: 'motiv',
+		id: FILTER_ID.MOTIVE,
 		label: 'Motiv',
 		items: MOTIVE_FILTERS,
 	},
 	{
-		id: 'kameny',
+		id: FILTER_ID.STONE,
 		label: 'Kameny',
 		items: STONE_FILTERS,
 	},
 	{
-		id: 'kolekce',
+		id: FILTER_ID.COLLECTION,
 		label: 'Kolekce',
 		items: COLLECTION_FILTERS,
 	},
 	{
-		id: 'material',
+		id: FILTER_ID.MATERIALS,
 		label: 'Material',
 		items: MATERIAL_FILTERS,
 	},
 	{
-		id: 'technika',
+		id: FILTER_ID.METHOD,
 		label: 'Technika',
 		items: METHOD_FILTERS,
 	},
 	{
-		id: 'opracovani',
+		id: FILTER_ID.TREATMENT,
 		label: 'Opracovani',
 		items: TREATMENT_FILTERS,
 	},
 	{
-		id: 'lokalita',
+		id: FILTER_ID.LOCATION,
 		label: 'Lokalita',
 		items: LOCATION_FILTERS,
 	},
