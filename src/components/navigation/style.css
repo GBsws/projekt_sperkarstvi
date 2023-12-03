@@ -1,7 +1,7 @@
 .navigation__list{
     display: flex;
     justify-content: space-around;
-    background-color:seashell;
+    background-color:#dcd4d4;
     padding:1em;
     font-weight: bold;
 }
