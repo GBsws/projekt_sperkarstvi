@@ -1,7 +1,8 @@
 import {FilterForm} from '../../components/filterForm'
 import {useState} from 'react'
 import { FILTER_ID } from '../../components/filterForm/data'
-import { useAirTableQuery } from '../../api'
+import { useGetData } from '../../api/index'
+import { RenderData } from '../../components/renderData'
 
 const defaultFilter = Object.values(FILTER_ID).reduce((acc,filterId)=>{
 	acc[filterId]=[]
@@ -10,8 +11,9 @@ const defaultFilter = Object.values(FILTER_ID).reduce((acc,filterId)=>{
 
 export const ProductsPage = () => {
 	const [filter, setFilter] = useState(defaultFilter)
-	const {data, isLoading} = useAirTableQuery('all')
-	console.log('co je airtablequery',data,isLoading)
+	const {areDataLoading,data}= useGetData()
+	console.log('jak vypadaji data',data)
+	
 	const handleFilterChange = (filterType, id, isChecked) => {
 		if (isChecked) {
 			const itemIndex = filter[filterType].indexOf(id)
@@ -30,6 +32,7 @@ export const ProductsPage = () => {
 	return (
 		<>
 			<FilterForm filter={filter} handleFilterChange={handleFilterChange}/>
+			<RenderData />
 		</>
 	)
 }

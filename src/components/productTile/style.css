@@ -1,7 +1,8 @@
 .product-tile__image{
   height:150px;
-  width:191px;
-
+  width:193px;
+  width:100%;
+  padding:5px;
 }
 .product-tile__title{
   text-align: center;
@@ -9,5 +10,4 @@
   text-decoration: none;
   background-color: #fff;
   border:5px solid #dcd4d4;
-
 }

@@ -4,7 +4,7 @@ import { ProductTile } from "../productTile"
 import necklaceImg from "../../assets/img/nahrdel0385.jpg"
 import earringImg from "../../assets/img/naus0169.jpg"
 import wireWrappingImg from '../../assets/img/wire0157.jpg'
-import czechStoneImg from '../../assets/img/ceske0089.jpg'
+import czechStoneImg from '../../assets/img/ceske0347.jpg'
 import icelandImg from '../../assets/img/isla0060.jpg'
 import angelsImg from '../../assets/img/andele0208.jpg'
 import wingsImg from '../../assets/img/okrid0080.jpg'

@@ -7,8 +7,9 @@ export const CollapseBox = ({ title,children}) => {
     <div className="collapse-box">
       <div className="collapse-box--title" onClick={()=>setBoxCollapsed(!boxCollapsed)}><span>{title}</span><span>{boxCollapsed?"▶":"▼"}</span>
       </div>
-    </div>
       {boxCollapsed || children}
+    </div>
+      
     </>
   );
 };
