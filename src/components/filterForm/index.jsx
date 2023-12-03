@@ -20,8 +20,6 @@ export const FilterForm = ({handleFilterChange, filter}) => {
 						</CollapseBox>
 					)
 				})}
-				<button>Vymazat výběr</button>
-				<button>potvrdit výběr</button>
 			</form>
 		</aside>
 	)

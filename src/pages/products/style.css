@@ -1,0 +1,16 @@
+.product-page__wrapper{
+    display: flex;
+    
+}
+.product-page__links{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color:#dcd4d4;
+
+}
+.product-page__form{
+   flex-basis:23%; 
+   padding-top:20px;
+   padding-left:10px;
+   background-color:#dcd4d4;
+}

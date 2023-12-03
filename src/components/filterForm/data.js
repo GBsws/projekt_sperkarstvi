@@ -524,7 +524,7 @@ export const HEADER_FILTERS = [
 	},
 	{
 		id: FILTER_ID.MATERIALS,
-		label: 'Material',
+		label: 'Materiál',
 		items: MATERIAL_FILTERS,
 	},
 	{
@@ -534,7 +534,7 @@ export const HEADER_FILTERS = [
 	},
 	{
 		id: FILTER_ID.TREATMENT,
-		label: 'Opracovani',
+		label: 'Opracování',
 		items: TREATMENT_FILTERS,
 	},
 	{

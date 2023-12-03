@@ -1,10 +1,11 @@
 //import {data} from '../../api/data.js'
+import './style.css'
 export const ProductDetailPage = () => {
 	return (
 		<div className='box_detail'>
 			<div className='boxik'>
 				<div class='box_foto'>
-					<div class='box_foto_hlavni'>FOTKA</div>
+					<div class='box_foto_hlavni'>fotka</div>
 					<div class='box_foto_cislo'>cislo fotky</div>
 				</div>
 				<div class='box_fotos_male'>
