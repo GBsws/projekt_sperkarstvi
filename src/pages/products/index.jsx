@@ -32,7 +32,7 @@ export const ProductsPage = () => {
 	return (
 		<>
 			<FilterForm filter={filter} handleFilterChange={handleFilterChange}/>
-			<RenderData />
+			<RenderData key={data} data={data}/>
 		</>
 	)
 }
