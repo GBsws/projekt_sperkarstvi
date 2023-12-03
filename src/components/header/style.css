@@ -29,6 +29,8 @@
     justify-content: center;
     display: flex;
     align-items: center;
+    padding: 60px;
+
 }
 /* .header__back{
     background-color:rgb(231, 44, 6);
