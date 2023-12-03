@@ -9,8 +9,6 @@ export const CollapseBox = ({ title,children}) => {
       </div>
     </div>
       {boxCollapsed || children}
-      {/* {!boxCollapsed && children}
-      {boxCollapsed ? null:children} */}
     </>
   );
 };

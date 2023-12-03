@@ -7,11 +7,9 @@ export const Checkbox = ({id, label, filter, filterId, handleFilterChange}) => {
 		handleFilterChange(filterId, id, isChecked)
 	}
 	return (
-		<div className="checkbox__wrapper">
-			<label className='checkbox__label' htmlFor={id}>
-				<input id={id} checked={isChecked} className='field-input' type='checkbox' onChange={handleChange} />
-				{label}
-			</label>
-		</div>
+		<label className='checkbox__label' htmlFor={id}>
+			<input id={id} checked={isChecked} className='field-input' type='checkbox' onChange={handleChange} />
+			{label}
+		</label>
 	)
 }

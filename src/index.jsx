@@ -1,16 +1,17 @@
-// import { createRoot } from 'react-dom/client';
-// import { HomePage } from './pages/HomePage';
-// import './global.css';
-
-// createRoot(
-//   document.querySelector('#app'),
-// ).render(<HomePage />);
+import {
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query'
 import { createRoot } from 'react-dom/client';
 import './global.css';
 import { RouterProvider } from "react-router-dom";
 import router from './router';
 
+const queryClient = new QueryClient()
 
 createRoot(
   document.querySelector('#app'),
-).render(<RouterProvider router={router} />);
+).render(<QueryClientProvider client={queryClient}>
+<RouterProvider router={router} />
+</QueryClientProvider>);
+

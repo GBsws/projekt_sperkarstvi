@@ -16,17 +16,17 @@ const useServiceQuery = (queryKey, url, token) => {
 }
 
 export const useAirTableQuery = (queryKey) => {
-	const url = `https://api.airtable.com/v0/${process.env.AIR_TABLE_BASE_ID}`
-	const token = process.env.AITRABLE_TOKEN
+	const url = `https://api.airtable.com/v0/${import.meta.env["VITE_AIR_TABLE_BASE_ID"]}/tblyol84ucax8tUq6`
+	const token = import.meta.env["VITE_AITRABLE_TOKEN"]
 	return useServiceQuery(queryKey, url, token)
 }
 
-const SomeComponent = () => {
-	const {data, isLoading} = useAirTableQuery('all')
+// const SomeComponent = () => {
+// 	const {data, isLoading} = useAirTableQuery('all')
 
-	if (isLoading) return <div>loading...</div>
+// 	if (isLoading) return <div>loading...</div>
 
-	return (
-		<div>{data.map(...)}</div>
-	)
-}
+// 	return (
+// 		<div>{data.map(...)}</div>
+// 	)
+// }

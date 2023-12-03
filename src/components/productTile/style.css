@@ -1,12 +1,10 @@
 .product-tile__image{
-  height:15vh;
-  width:15vw;
+  height:150px;
+  width:180px;
+
 }
 .product-tile__title{
-  text-align:center;
+  
   color:black;
   text-decoration: none;
 }
-
-
-/*  */
