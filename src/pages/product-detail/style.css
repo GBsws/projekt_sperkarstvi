@@ -1,4 +1,4 @@
-.box_detail {
+/* .box_detail {
     display: flex;
     justify-content: center;
     border: 5px solid green;
@@ -112,5 +112,104 @@
     padding: 10px;
     border: 5px solid rgb(233, 79, 79);
     font-size: 10px;
-  }
+  } */
 
+  .box_detail {
+    display: flex;
+    /* width: calc(100 / 3); */
+    grid-template-rows: repeat(3, [row] auto);
+    justify-content: center;
+    border: 5px solid green;
+  }
+  .x {
+    display: grid;
+    grid-template-rows: repeat(1, [col] auto);
+    background-color: #fff;
+    border: 5px solid pink;
+  }
+  .w {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(1, [col] auto);
+    grid-template-rows: repeat(1, [row] auto);
+    background-color: #fff;
+    border: 5px solid pink;
+  }
+  .box {
+    background-color: #A49F9F;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 70%;
+  }
+  .box .box {
+    background-color: #D55959;
+    color: #fff;
+    font-size: 100%;
+  }
+  .p {
+    grid-row: col 1/ span 1;
+    grid-column: column;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr;
+  }
+  .q {
+    grid-column: 1/1;
+    grid-row: 1;
+  }
+  .r {
+    grid-column: 1/1;
+    grid-row: 2;
+  }
+  .s {
+    grid-column: col 1/ span 1;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 5fr 5fr 5fr;
+  }
+  .t .k .u {
+    grid-column: 1/1;
+    grid-row: 1;
+  }
+  .a {
+    grid-column: col 1/ span 1;
+    grid-row: row;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 10fr 1fr 10fr;
+  }
+  .c {
+    grid-column: col 1/ span 1;
+    grid-row: row 2;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 10fr;
+  }
+  .b {
+    grid-column: 1/1;
+    grid-row: 1;
+    width: 70px;
+  }
+  .d{
+    grid-column: 2/2;
+    grid-row: 1;
+  }
+  .e {
+    grid-column: 1/1;
+    grid-row: 1;
+    width: 70px;
+  }
+  .f {
+    grid-column: 2/2;
+    grid-row: 1;
+  }
+  .g {
+    grid-column: 3/3;
+    grid-row: 1;
+    width: 70px;
+  }
+  .h {
+    grid-column: 4/4;
+    grid-row: 1;
+  }

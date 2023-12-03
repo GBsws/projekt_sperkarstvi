@@ -85,6 +85,9 @@ export const useGetData = () => {
 		isNinthPageLoading ||
 		isTenthPageLoading
 
+		const uniqueIds= new Set()
+	
+
 	const data = areDataLoading
 		? []
 		: [
@@ -98,7 +101,13 @@ export const useGetData = () => {
 				...eighthPageData?.records,
 				...ninthPageData?.records,
 				...tenthPageData?.records,
-		  ]
+		  ].filter((item)=>{
+			if(!uniqueIds.has(item.id)){
+				uniqueIds.has(item.id)
+				return true
+			}
+			return false
+		  })
 
 	return {areDataLoading, data}
 }

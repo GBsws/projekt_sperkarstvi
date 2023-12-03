@@ -1,13 +1,11 @@
 .home__grid {
 	display: flex;
-  flex-wrap:wrap;
-  gap:5px;
+    flex-wrap:wrap;
+    gap:5px;
 	flex-basis: calc(100% / 2);
 	background-color: #dcd4d4;
 	color: #bba4a4;
 	text-decoration: none;
-	/* margin-top: 10px;
-	margin-bottom: 10px; */
 }
 
 @media (min-width: 900px) {
