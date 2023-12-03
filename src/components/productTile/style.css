@@ -1,13 +1,15 @@
-.product-tile__image{
-  height:150px;
-  width:191px;
+.product-tile__image {
+  height: 150px;
+  width: 191px;
+  padding: 10px;
 
 }
-.product-tile__title{
+
+.product-tile__title {
   text-align: center;
-  color:black;
+  color: black;
   text-decoration: none;
   background-color: #fff;
-  border:5px solid #dcd4d4;
+  border: 3px solid #dcd4d4;
 
 }
