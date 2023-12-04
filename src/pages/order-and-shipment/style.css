@@ -1,0 +1,5 @@
+.texty {
+  display: flex;
+	flex-wrap: wrap;
+  padding: 0px 30px 0px 30px;
+}

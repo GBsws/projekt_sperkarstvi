@@ -49,9 +49,9 @@ export const Footer = () => {
 					<NavLink className='footer__link footer__link3' to='/kontakty'>
 						Kontaktní údaje
 					</NavLink>
-					<NavLink className='footer__link footer__link3' to='/kontakty'>
+					{/* <NavLink className='footer__link footer__link3' to='/kontakty'>
 						Kontaktní údaje
-					</NavLink>
+					</NavLink> */}
 				</div>
 			</nav>
 		</div>
