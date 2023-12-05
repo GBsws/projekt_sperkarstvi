@@ -22,12 +22,11 @@
   /* margin: 20px; */
 }
  .footer {
-  /* position: fixed;  */
+  position: fixed; 
   background-color: #dcd4d4;
   font-weight: bold;
   bottom: 0;
   width: 100%;
-  /* height: 20vh;*/
 } 
 .footer__link{
   text-decoration: none;

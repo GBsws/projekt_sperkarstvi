@@ -1,5 +1,5 @@
 import {useQuery} from '@tanstack/react-query'
-import axios from 'axios' //uspornejsi nez fetch
+import axios from 'axios' 
 
 const useServiceQuery = (queryKey, url, token, enabled = false) => {
 	return useQuery({
