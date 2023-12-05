@@ -50,7 +50,7 @@ export const Footer = () => {
 						Kontaktní údaje
 					</NavLink>
 					<NavLink className='footer__link footer__link3' to='/kontakty'>
-						........
+						Kontaktní údaje
 					</NavLink>
 				</div>
 			</nav>

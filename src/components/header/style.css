@@ -16,7 +16,7 @@
     opacity:0.4;
 }  */
 
-.header__banner{
+/* .header__banner{
     background-image:url('../../assets/img/0076orez.png');
     background-position:center; 
     background-size:100% 100%;
@@ -31,7 +31,7 @@
     align-items: center;
     padding: 60px;
 
-}
+} */
 /* .header__back{
     background-color:rgb(231, 44, 6);
     margin: 0px 300px 0px 300px;
@@ -42,6 +42,40 @@
     display: flex;
     align-items: center;
 }  */
+
+
+.header__banner {
+    background-image: url('../../assets/img/0076orez.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 20vh;
+    opacity: 70%;
+}
+
+.header__title {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* padding: 60px; */
+
+}
+
+.header__back {
+    position: relative;
+    top: 20%;
+    text-align: end;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0px 400px 0px 400px;
+    background-color: rgba(71, 62, 61, 0.797);
+}
+
+
+
 
 @media (max-width:720px){
    .header__banner{
