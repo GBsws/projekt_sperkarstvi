@@ -1,19 +1,14 @@
-import './style.css' 
-import { TYPE } from "../../constants"
-import { ProductTile } from '../../components/productTile'
-import { ProductTiles } from '../../components/productTiles'
+import './style.css'
+import {ProductTiles} from '../../components/productTiles'
 
 export const HomePage = () => {
-  return (
-    <>
-    {/* <div className="home__grid">
-      {Object.values(TYPE).map((type) => {
-        return <ProductTile key={type} type={type} />
-      })}
-    </div> */}
-    <div className="home__grid">
-      <ProductTiles />
-    </div>
-    </>
-  )
+	return (
+		<>
+			<div className="home__wrapper">
+				<div className='home__grid'>
+					<ProductTiles />
+				</div>
+			</div>
+		</>
+	)
 }

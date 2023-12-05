@@ -25,6 +25,3 @@ export const FilterForm = ({handleFilterChange, filter}) => {
 	)
 }
 
-// {Object.values(PRODUCT_TYPE).map((type) => {
-//         return <ProductTile key={type} type={type} />
-//       })}

@@ -1,6 +1,6 @@
 .product-page__wrapper{
     display: flex;
-    
+    background-color:#dcd4d4
 }
 .product-page__links{
     display:grid;
@@ -11,6 +11,6 @@
 .product-page__form{
    flex-basis:23%; 
    padding-top:20px;
-   padding-left:10px;
+   padding-left:20px;
    background-color:#dcd4d4;
 }

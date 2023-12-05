@@ -1,13 +1,7 @@
 .product-tile__image {
-  /* height: 150px;
-  width: 191px;
-  padding: 10px; */
-
-  height: 200px;
-  width: 230px;
+  height: 140px;
+  width: 180px;
   padding: 7px;
-
-
 }
 
 .product-tile__title {

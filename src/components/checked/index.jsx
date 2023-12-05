@@ -1,5 +1,4 @@
 import './style.css'
-import {HEADER_FILTERS} from '../filterForm/data'
 export const Checkbox = ({id, label, filter, filterId, handleFilterChange}) => {
 	const isChecked = filter[filterId] && filter[filterId].indexOf(id) >= 0
 

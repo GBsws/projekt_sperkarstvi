@@ -31,14 +31,14 @@ export const ProductsPage = () => {
 
 	return (
 		<>
-		<div className="product-page__wrapper">
-			<div className="product-page__form">
-			<FilterForm filter={filter} handleFilterChange={handleFilterChange} />
+			<div className='product-page__wrapper'>
+				<div className='product-page__form'>
+					<FilterForm filter={filter} handleFilterChange={handleFilterChange} />
+				</div>
+				<div className='product-page__links'>
+					<RenderData key={data} data={data} />
+				</div>
 			</div>
-			<div className='product-page__links'>
-				<RenderData key={data} data={data} />
-			</div>
-		</div>
 		</>
 	)
 }

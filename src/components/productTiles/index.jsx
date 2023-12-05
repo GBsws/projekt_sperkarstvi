@@ -123,17 +123,3 @@ return(
    )
 }
 
-
-
-{/* // export const productTiles=()=>{
-//     const {ProductId} =useParams();
-//     const productData =tiles.find((tile)=>tile.id===(ProductId));
-//     const {material}= product
-//    return(
-//     <div>
-//         <h3>
-//            Obrázek: {productData.imgSrc} Název:({productData.title})
-//         </h3>
-//     </div>
-//    )
-// } */}
