@@ -43,35 +43,31 @@
     align-items: center;
 }  */
 
-
 .header__banner {
-    background-image: url('../../assets/img/0076orez.png');
-    background-position: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 20vh;
-    opacity: 70%;
+	background-image: url('../../assets/img/0076orez.png');
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 20vh;
+	opacity: 70%;
 }
 
 .header__title {
-    color: white;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    /* padding: 60px; */
+	color: white;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
 }
 
 .header__back {
-    position: relative;
-    top: 20%;
-    text-align: end;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    /* margin: 0px 400px 0px 400px;  */
-    background-color: rgba(71, 62, 61, 0.797);
+	position: relative;
+	top: 20%;
+	text-align: end;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	/* margin: 0px 400px 0px 400px; */
+	background-color: rgba(71, 62, 61, 0.797);
 }
-
-
 

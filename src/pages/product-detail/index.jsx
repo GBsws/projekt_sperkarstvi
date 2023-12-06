@@ -1,6 +1,17 @@
-//import {data} from '../../api/data.js'
+import {useParams} from 'react-router-dom'
 import './style.css'
+import { useGetData } from '../../api'
+
 export const ProductDetailPage = () => {
+	const {productId} = useParams
+	const {areDataLoading,data} = useGetData()
+
+	if (areDataLoading){
+		return <div>Načítám data...</div>
+	}
+	const productData = data.find((product)=> product.fields.cislo_fotky ===productId)
+	const {nazev,typ,material,technika,opracovani,lokalita,kamen,motiv,kolekce} = productData.fields
+
 	return (
 	  <div className='box_detail'>
 		<div className="x">
@@ -17,13 +28,13 @@ export const ProductDetailPage = () => {
 		<div className="w">
 		  <div className="box a">
 			<div className="box e">Název:<br></br>Kolekce:<br></br>Typ:<br></br>Materiál:</div>
-			<div className="box f">Pozdrav z nebe<br></br>Ochránci a andělé<br></br>přívěšek<br></br>chirurgická ocel</div>
+			<div className="box f">{nazev}Pozdrav z nebe<br></br>{kolekce}Ochránci a andělé<br></br>přívěšek{typ}<br></br>{material}chirurgická ocel</div>
 			<div className="box g">Technika:<br></br>Opracování:<br></br>Lokalita:<br></br>Motiv:</div>
-			<div className="box h">wire-wrapping<br></br>surové<br></br>české<br></br>zoomorfní</div>
+			<div className="box h">wire-wrapping{technika}<br></br>surové{opracovani}<br></br>české{lokalita}<br></br>zoomorfní{motiv}</div>
 		  </div>
 		  <div className="box c">
-			<div className="box b">Kameny:<br></br>Poznámka:</div>
-			<div className="box d">opál vltavín křemen<br></br>blabla...</div>
+			<div className="box b">Kameny:<br></br>Poznámka</div>
+			<div className="box d">opál vltavín křemen{kamen}<br></br>...</div>
 		  </div>
 		</div>
 	  </div>
