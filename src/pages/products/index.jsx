@@ -40,8 +40,7 @@ export const ProductsPage = () => {
 	if (areDataLoading) {
 		return <div>Načítají se data, chvíli počkejte...</div>
 	}
-	const filteredData = (useMemo =
-		(() => {
+	const filteredData = useMemo(() => {
 			return shouldFilterData
 				? data.filter((product) => {
 						const {
@@ -100,11 +99,11 @@ export const ProductsPage = () => {
 				  })
 				: data
 		},
-		[data, filter]))
+		[data, filter])
 
 	return (
 		<>
-			<Link to={`/vyrobek?${cislo_fotky}`}>
+			<Link to={`/vyrobek/${cislo_fotky}`}>
 				<div className='product-page__wrapper'>
 					<div className='product-page__form'>
 						<FilterForm filter={filter} handleFilterChange={handleFilterChange} />
