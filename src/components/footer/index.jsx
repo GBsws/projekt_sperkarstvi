@@ -1,5 +1,5 @@
 import './style.css'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export const Footer = () => {
 	return (
@@ -21,13 +21,20 @@ export const Footer = () => {
 						Šperkařská dílna
 					</NavLink>
 				</div>
+
 				<div>
 					<NavLink className='footer__link footer__link3' to='/kontakty'>
 						Kontaktní údaje
 					</NavLink>
-					<NavLink className='footer__link footer__link3' to='/kontakty'>
-						........
-					</NavLink>
+
+					<div className='icons'>
+						<NavLink className='footer__link footer__link3' to='https://www.facebook.com/pavopfau' >
+							<img className='icon' src='../../assets/img/face.png' />
+						</NavLink>
+						<NavLink className='footer__link footer__link3' to='https://www.instagram.com/jitkapfau/' >
+							<img className='icon' src='../../assets/img/inst.png' />
+						</NavLink>
+					</div>
 				</div>
 			</nav>
 		</div>

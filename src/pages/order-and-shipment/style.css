@@ -1,5 +1,20 @@
+.box_dilna {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+
+.image {
+  margin-bottom: 0px;
+  width: 100%;
+  border: 15px;
+  padding-top: 5px;
+}
+
 .texty {
+  background-color: #dcd4d4;
   display: flex;
 	flex-wrap: wrap;
-  padding: 0px 30px 0px 30px;
+  padding: 0px 30px 20px 30px;
 }

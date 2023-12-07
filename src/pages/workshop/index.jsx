@@ -5,7 +5,6 @@ export const WorkshopPage = () => {
       <main className="texty">
         <div>
           <br></br>
-
           <h2>ŠPERKAŘSKÝ ATELIÉR</h2>
           <p>Aktuálně vyrábím šperky v ateliéru v centru Hradce Králové, po dohodě je možná osobní konzultace při výrobě šperku na zakázku, vyzvednutí hotových šperků apod.
           </p>
