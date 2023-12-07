@@ -54,8 +54,8 @@ export const COLLECTION = {
   MAROKO: "Marokem",
   OKRIDLENI: "Okridleni",
   ANDELE: "Strazci a andele",
-  ZEME_CESKA: "Zeme Ceská",
-  DAVNE_DOBY: "Z dávných dob",
+  ZEME_CESKA: "Zeme Ceska",
+  DAVNE_DOBY: "Z davnych dob",
 };
 
 export const STONE = {
