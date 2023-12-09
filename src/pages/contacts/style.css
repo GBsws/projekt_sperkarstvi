@@ -17,6 +17,6 @@
 .icon {
   width: 2rem;
   height: 2rem;
-  background-image: url(../../assets/img/face.png);
+
   background-size: contain;
 }
