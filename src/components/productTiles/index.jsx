@@ -11,6 +11,7 @@ import wingsImg from '../../assets/img/okrid0080.jpg'
 import moldaviteImg from '../../assets/img/vltavin0354.jpg'
 import fossilImg from '../../assets/img/fosilie0306.jpg'
 import preciousImg from '../../assets/img/drahe0363.jpg'
+import precious2Img from '../../assets/img/0093_a.jpg'
 import fytomorphicImg from '../../assets/img/fytom0081.jpg'
 import newsImg from '../../assets/img/novinky0055.jpg'
 import { FILTER_ID } from '../filterForm/data'
@@ -94,14 +95,26 @@ export const ProductTiles=()=>{
             [FILTER_ID.STONE]: [STONE.FOSILIE],
         },
     },
+    // {
+    //     id: 10,
+    //     imgSrc: preciousImg,
+    //     title: 'Drahé kovy',
+    //     filters: {
+    //         [FILTER_ID.MATERIALS]: [MATERIALS.ZLATO, MATERIALS.STRIBRO],
+    //     },
+    // },
+   
+   
     {
         id: 10,
         imgSrc: preciousImg,
-        title: 'Drahé kovy',
+        title: 'Zlato',
         filters: {
-            [FILTER_ID.MATERIALS]: [MATERIALS.ZLATO, MATERIALS.STRIBRO],
+            [FILTER_ID.MATERIALS]: [MATERIALS.ZLATO],
         },
     },
+   
+   
     {
         id: 11,
         imgSrc: fytomorphicImg,
@@ -110,6 +123,17 @@ export const ProductTiles=()=>{
             [FILTER_ID.MOTIVE]: [MOTIVE.FYTOMORFNI],
         },
     },
+
+    {
+        id: 12,
+        imgSrc: precious2Img,
+        title: 'Stříbro',
+        filters: {
+            [FILTER_ID.MATERIALS]: [MATERIALS.STRIBRO],
+        },
+    },
+
+
     // {
     //     id:12,
     //     imgSrc: newsImg,
