@@ -1,4 +1,3 @@
-//import { useParams } from "react-router-dom";
 import './style.css'
 import { ProductTile } from "../productTile"
 import necklaceImg from "../../assets/img/nahrdel0385.jpg"
@@ -132,7 +131,6 @@ export const ProductTiles=()=>{
             [FILTER_ID.MATERIALS]: [MATERIALS.STRIBRO],
         },
     },
-
 
     // {
     //     id:12,
